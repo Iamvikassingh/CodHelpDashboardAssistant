@@ -10,7 +10,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="📊 CodHelp Assistant Dashboard", layout="wide")
 
 # Sidebar navigation
-
+st.sidebar.title("CodHelp Dashboard")
 
 st.sidebar.markdown("---")
 uploaded_file = st.sidebar.file_uploader(
