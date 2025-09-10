@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib.pyplot
+seaborn
+plotly.express
+openai
+os
+google.generativeai
