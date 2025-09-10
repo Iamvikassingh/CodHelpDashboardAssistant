@@ -49,6 +49,7 @@ if gemini_api_key:
     genai.configure(api_key=gemini_api_key)
 
 st.title("📊 CodHelp Assistant Dashboard")
+st.markdown("<div style='text-align: left; font-size: 12px; color: #888;'>Developed by Vikas Singh</div>", unsafe_allow_html=True)
 
 if uploaded_file:
     # Detect file type and load accordingly
