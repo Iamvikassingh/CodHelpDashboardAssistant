@@ -18,7 +18,7 @@ uploaded_file = st.sidebar.file_uploader(
     "Upload Data File",
     type=["csv", "xls", "xlsx", "json", "txt"]
 )
-st.sidebar.markdown("Powered by OpenAI & Streamlit")
+
 
 # Load API key from .env or apikey.json
 api_key = os.getenv("OPENAI_API_KEY")
