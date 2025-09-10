@@ -1,8 +1,12 @@
 streamlit
 pandas
-matplotlib.pyplot
+matplotlib
 seaborn
-plotly.express
+plotly
 openai
-os
-google.generativeai
+google-generativeai
+PyPDF2
+python-docx
+python-pptx
+openpyxl
+nltk
